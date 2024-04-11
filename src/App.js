@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Singup from './pages/institute/Singup';
+import Login from './pages/institute/Login';
+import ContactUs from './pages/institute/ContactUs';
+import PrivacyAndPolicy from './pages/institute/PrivacyAndPolicy';
+import ServicePage from './pages/institute/ServicePage';
+import TermAndCondition from './pages/institute/TermAndCondition';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Singup/>
+    <Login/>
+    <ContactUs/>
+    <PrivacyAndPolicy/>
+    <ServicePage/>
+    <TermAndCondition/>
+    </>
   );
 }
 
